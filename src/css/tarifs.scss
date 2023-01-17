@@ -1,0 +1,72 @@
+.tarifs {
+    padding: 100px 0 80px;
+    &__cards {
+        display: flex;
+        column-gap: 20px;
+        justify-content: center;
+    }
+    &__card {
+        width: calc(25% - 15px);
+        button {
+            width: 230px;
+            margin: 32px auto 20px;
+        }
+    }
+    &__top {
+        border: 1px solid #DEDEFF;
+        border-radius: 4px;
+        padding: 28px 20px;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    &__title {
+        font-weight: 900;
+        font-size: 22px;
+        color: #3035C4;
+        height: 71px;
+    }
+    &__num {
+        font-size: 40px;
+        color: #3035C4;
+        font-weight: 900;
+    }
+    &__text {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #23283B;
+        padding-top: 16px;
+    }
+    &__items {
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+        height: 162px;
+    }
+    &__item {
+        display: flex;
+    }
+    &__name {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #23283B;
+        padding-left: 16px;
+    }
+    &__play {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__play-icon {
+        cursor: pointer;
+    }
+    &__play-name {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        color: #3035C4;
+        padding-left: 12px;
+        cursor: pointer;
+    }
+}

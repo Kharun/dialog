@@ -1,0 +1,108 @@
+.courses {
+    padding: 80px 0 80px;
+    background: #F8F8FF;
+}
+
+.tabs__content {
+    display: none; /* по умолчанию прячем все блоки */
+  }
+  .tabs__content.active {
+    display: block; /* по умолчанию показываем нужный блок */
+  }
+
+  .tabs {
+    &__caption {
+        margin: 52px 0 40px;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        justify-content: space-between;
+    }
+    &__item {
+      &-text {
+        display: none;
+      }
+        &.active {
+            color: red;
+            span {
+              color: red;
+            }
+            .tabs__item-text {
+              display: inline;
+            }
+            text-decoration: underline 3px;
+            text-underline-offset: 10px;
+        }
+    }
+    &__lvl {
+      width: 220px;
+      padding-top: 16px;
+      &-max {
+        margin-top: 20px;
+        width: 100%;
+        background: #DEDEFF;
+        border-radius: 10px;
+        height: 8px;
+      }
+      &-current {
+        background: red;
+        height: 100%;
+        border-radius: 10px;
+      }
+    }
+    &__items {
+      display: flex;
+      column-gap: 60px;
+      justify-content: space-around;
+    }
+    &__content {
+      background: #FFFFFF;
+      box-shadow: 0px 10px 40px rgba(0, 11, 68, 0.22);
+      border-radius: 10px;
+      padding: 48px 52px;
+    }
+    &__content-title {
+      font-weight: 800;
+      font-size: 28px;
+      color: #3035C4;
+    }
+    &__content-text {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #23283B;
+      padding: 24px 0 48px;
+    }
+    &__item-title {
+      font-weight: 800;
+      font-size: 20px;
+      color: #23283B;
+      padding-bottom: 8px;
+    }
+    &__items-info {
+    }
+    &__items-info-item {
+      display: flex;
+      padding-top: 16px;
+    }
+    &__items-info-words {
+      padding-left: 16px;
+    }
+    &__items-info-text {
+      font-family: 'Lato', sans-serif;
+      font-weight: 800;
+      font-size: 14px;
+      color: #23283B;
+    }
+    &__items-info-subtitle {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #23283B;
+      padding-top: 4px;
+    }
+    &__items-material-img {
+      padding-top: 16px;
+    }
+  }

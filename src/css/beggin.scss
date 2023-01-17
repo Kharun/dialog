@@ -1,0 +1,32 @@
+.beggin {
+    padding-bottom: 190px;
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+    &__right {
+        padding-top: 120px;
+        button {
+            padding: 16px 60px;
+        }
+    }
+    &__text {
+        font-weight: 700;
+        font-size: 16px;
+        color: #3035C4;
+        padding-bottom: 28px;
+    }
+    &__title {
+        font-weight: 800;
+        font-size: 56px;
+        color: #23283B;
+        padding-bottom: 52px;
+    }
+    &__img {
+        top: 0;
+        left: 700px;
+        position: absolute;
+    }
+}

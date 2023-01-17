@@ -1,0 +1,32 @@
+.partners {
+    padding: 80px 100px;
+    &__logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 56px;
+        padding-bottom: 142px;
+    }
+    &__sub {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 70px;
+        background: url('../img/partners_bg.png') center/cover no-repeat;
+        border-radius: 20px;
+        
+        button {
+            padding: 16px 60px;
+        }
+        button:hover {
+            background: #fff;
+            border: solid #fff;
+        }
+    }
+    &__text {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+}

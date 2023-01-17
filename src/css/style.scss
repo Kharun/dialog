@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #23283B;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 14px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #E6514A;
+    border-radius: 40px;
+    border: solid #E6514A;;
+    color: #ffffff;
+    cursor: pointer;
+    span {
+        padding-left: 10px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #ffffff;
+        transition: 0.3s all;
+    }
+    transition: 0.3s all;
+}
+.btn:hover {
+    border: solid #E6514A;
+    background: none;
+    color: #000000;
+    span {
+        color: #000000;
+    }
+    svg {
+        fill: #000000;
+    }
+}
+
+.subtitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #23283B;
+    text-align: center;
+
+    span {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 1px;
+            background: #E6514A;
+            top: 7px;
+            left: -52px;
+        }
+    }
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: #23283B;
+    text-align: center;
+    padding: 20px 0 52px
+}
+
+.goTop {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    padding: 12px 16px;
+    background: red;
+    color: white;
+    display: none;
+}
+
+@import "header.scss";
+@import "beggin.scss";
+@import "video.scss";
+@import "overlay.scss";
+@import "tarifs.scss";
+@import "license.scss";
+@import "partners.scss";
+@import "courses.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
